@@ -14,6 +14,9 @@ public class RecController {
         Rectangle rec = new Rectangle(x, y);
         int perim = (int) rec.perimeter();
 
+
+
+        ///вввввв
         System.out.println(perim);
         int area = (int) rec.area();
         model.addAttribute("perim", perim);
